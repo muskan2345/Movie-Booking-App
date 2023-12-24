@@ -10,6 +10,8 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document(collection="roles")
 public class Role {
+
+	//comment
   @Id
   private String roleName;
   private String roleDesc;
